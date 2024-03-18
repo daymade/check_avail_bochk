@@ -112,10 +112,10 @@ async function queryDate(appDate) {
 }
 
 // Example usage
-queryDate("22/03/2024");
-queryDate("23/03/2024");
-queryDate("24/03/2024");
+// queryDate("22/03/2024");
+// queryDate("23/03/2024");
+// queryDate("24/03/2024");
 
 // Later, you can execute again with different or same dates
-queryDate("25/03/2024");
-queryDate("26/03/2024");
+// queryDate("25/03/2024");
+// queryDate("26/03/2024");
