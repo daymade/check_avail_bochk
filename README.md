@@ -9,14 +9,14 @@ This tool is designed to query available appointment slots for bank branches dir
 
 ## Important Note
 
-Due to CORS (Cross-Origin Resource Sharing) restrictions, this script can only be executed in the console of the inner iframe named `iframe(continueInput.action)` found on the transaction page (`transaction.bochk.com`), and **not** in the top-level console (`www.bochk.com`). The correct console can be accessed by navigating to the Developer Tools in Chrome, selecting the "Console" tab, and ensuring you're targeting the correct iframe context via the dropdown menu at the top of the Console panel.
+Due to CORS (Cross-Origin Resource Sharing) restrictions, this script can only be executed in the console of the inner iframe named `iframe(input.action)` or `iframe(continueInput.action)`, and **not** in the top-level console (`www.bochk.com`). The correct console can be accessed by navigating to the Developer Tools in Chrome, selecting the "Console" tab, and ensuring you're targeting the correct iframe context via the dropdown menu at the top of the Console panel.
 
 ## How to Use
 
 1. **Navigate to the Appointment Page**: Go to the Bank of China (Hong Kong) appointment system website.
 2. **Open Developer Tools**: Right-click anywhere on the page and select "Inspect" or use the shortcut `Ctrl+Shift+I` (Windows/Linux) or `Cmd+Opt+I` (Mac).
 3. **Find the Correct Iframe**: In the Developer Tools, switch to the "Console" tab and select the appropriate iframe context as mentioned above.
-4. **Paste and Execute the Script**: Copy the entire script provided above and paste it into the console, then press Enter to execute it.
+4. **Paste and Execute the Script**: Copy the entire content in the [queryDate.js](queryDate.js) and paste it into the console, then press Enter to execute it.
 
 ### Making Queries
 
