@@ -102,12 +102,13 @@ async function queryDate(appDate) {
         globalTotalQueries = 0;
         globalCompletedQueries = 0;
         availableAppointments = [];
-        pendingQueries--;
-        if (pendingQueries === 0) {
-            // Reset overall counters after all queries are completed
-            overallTotalQueries = 0;
-            overallCompletedQueries = 0;
-        }
+    }
+    
+    pendingQueries--;
+    if (pendingQueries === 0) {
+        // Reset overall counters after all queries are completed
+        overallTotalQueries = 0;
+        overallCompletedQueries = 0;
     }
 }
 
