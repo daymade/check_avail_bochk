@@ -1,0 +1,1 @@
+# check_avail_bochk
